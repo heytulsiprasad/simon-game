@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="U-XA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>The Simon Game</title>
+
+    <!-- Fonts by Google -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Internal Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <!-- jQeury CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Local JavaScript -->
+    <script type="text/javascript" src="./game.js"></script>
+  </body>
+</html>
