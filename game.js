@@ -1,3 +1,7 @@
+alert(
+  "1: Tap on the blue screen or press any key to start the game.\n2: Wait for a card to flash, and then tap on the card.\n3: When the next card flashes, tap all the cards in sequence.\n4: Play and Enjoy the memory game!\n5: Reload to Play Again."
+);
+
 var gamePattern = [];
 var buttonColors = ["red", "blue", "green", "yellow"];
 var userClickedPattern = [];
