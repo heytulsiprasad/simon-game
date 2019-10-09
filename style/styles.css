@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    background-color: #011F3F;
+}
+
+#level-title {
+    font-family: 'Major Mono Display', cursive;
+    font-size: 5rem;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    color: #FEF2BF;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.btn {
+    margin: 30px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #000;
+    border-radius: 10%;
+}
+
+.red {
+    background-color: #FF3333;
+}
+
+.green {
+    background-color: #33FF33;
+}
+
+.blue {
+    background-color: #4747FF;
+}
+
+.yellow {
+    background-color: #FFFF47;
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+.javascript {
+    color: yellow;
+}
+
+footer {
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}

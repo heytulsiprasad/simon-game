@@ -1,0 +1,39 @@
+@media screen and (max-width: 1120px) {
+  .container {
+    display: inline-flex;
+  }
+
+  .btn {
+    margin: 20px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #000;
+    border-radius: 10%;
+  }
+
+  #level-title {
+      font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+    .container {
+        display: inline-flex;
+    }
+
+    .btn {
+        margin: 10px;
+        height: 100px;
+        width: 100px;
+        border: 1px solid #000;
+        border-radius: 8%;
+    }
+
+    #level-title {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 25%;
+        margin-bottom: 25%;
+    }
+}
